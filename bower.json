@@ -1,0 +1,18 @@
+{
+  "name": "id-290",
+  "homepage": "https://github.com/ChelseaBurns/id-290",
+  "authors": [
+    "Chelsea Burns <co.designux@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
