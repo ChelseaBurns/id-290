@@ -14,5 +14,13 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.8",
+    "bootstrap-ui": "~0.14.3",
+    "normalize-css": "normalize.css#~3.0.3",
+    "angular-route": "~1.4.8"
+  }
 }
