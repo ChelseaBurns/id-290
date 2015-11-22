@@ -18,13 +18,20 @@ body,
 	height: 100%;
 }
 
-small {
+h1 small {
 	color: yellow;
 	font-weight: 100;
+	font-variant: small-caps;
 }
+
+h2 {
+	color: #2F4F4F;
+}
+
 
 h3 {
 	color: #AA2A24;
+	font-variant: small-caps;
 }
 
 hr {
@@ -70,7 +77,8 @@ a:visited {
 	min-height: 120px;
 }
 .main-banner {
-	background: #ebedee;
+	color: brown;
+	background-image: url(../img/paisley-pattern-wallpaper.jpg);
 	text-align: center;
 	padding: 35px 15px;
 }
