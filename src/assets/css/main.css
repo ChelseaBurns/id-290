@@ -18,13 +18,32 @@ body,
 	height: 100%;
 }
 
+small {
+	color: yellow;
+	font-weight: 100;
+}
+
+h3 {
+	color: #AA2A24;
+}
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px white;
+}
+
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 a:visited {
-	color: black;
+	color: white;
 }
 /*.main-wrapper {
 	width: 90%;
@@ -34,11 +53,11 @@ a:visited {
 /* Layout Element Colors
 ================================ */
 
-.main-header       { background-color: #384047; }
-.main-logo         { background-color: #5fcf80; }
-.main-nav li       { background-color: #3f8abf; }
-.primary-content   { background-color: #caebf6; }
-.secondary-content { background-color: #bfe3d0; }
+.main-header       { background-color: #FF5E99; }
+.main-logo         { background-color: #FF5E99; }
+.main-nav li       { background-color: #509EA8; }
+.primary-content   { background-color: #509EA8; }
+.secondary-content { background-color: #FF5E90; }
 .main-footer       { background-color: #b7c0c7; }
 
 /* Header, Banner and Footer Layout
@@ -66,7 +85,9 @@ a:visited {
 	vertical-align: middle;
 }
 .main-logo {
-	width: 120px;
+	width: auto;
+	font-weight: 400;
+	color: #edeff0;
 }
 .main-nav {
 	padding-left: 50px;
@@ -99,12 +120,17 @@ a:visited {
 	padding: 20px;
 	margin-right: -5px;
 	vertical-align: top;
+	height: 375px;
+
 }
 .primary-content {
 	width: 60%;
+	color: #cce1e5;
+	background-image: url(../img/blue-pattern.png);
 }
 .secondary-content {
 	width: 40%;
+	color: white;
 }
 
 
